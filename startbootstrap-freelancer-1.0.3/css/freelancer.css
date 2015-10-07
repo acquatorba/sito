@@ -81,8 +81,9 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: yellow;
+    color: transparent;
+    background-image: url(../img/bancale.png);
+    background-repeat: no-repeat;
 }
 
 header .container {
