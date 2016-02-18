@@ -1,14 +1,13 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     overflow-x: hidden;
 }
 
 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+li {
     font-size: 20px;
     text-align: justify;
 }
@@ -91,12 +90,16 @@ hr.light-black {
     padding-bottom: 20px;
 }
 .img-fiber {
-    height: 85%;
-    width: 85%;
-    padding-bottom: 0px;
+    height: 95%;
+    width: 95%;
+    padding-bottom: 20px;
 }
 .img-centered {
     margin: 0 auto;
+}
+
+.img-product {
+    max-width: 80%;
 }
 
 header {
@@ -205,6 +208,11 @@ section h2 {
     font-size: 3em;
 }
 
+section.whitnes {
+    color: #222;
+    background: #fff;
+}
+
 section.success {
     color: #fff;
     background: #222;
@@ -219,10 +227,23 @@ section.success a.active {
     color: #2c3e50;
 }
 
-section.div-img {
+section.div-img-first {
+    background: url(../img/FiberBancale.jpg) no-repeat fixed;
+    height: 500px;
+    
+    position:relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+section.div-img-second {
     text-align: center;
     background: url(../img/macro_forato.png) no-repeat fixed;
-    height: 350px;
+    height: 450px;
     
     position:relative;
     -webkit-background-size: cover;
