@@ -12,6 +12,10 @@ li {
     text-align: justify;
 }
 
+.last-row {
+    padding-top: 20px;
+}
+
 p.small {
     font-size: 16px;
 }
