@@ -80,14 +80,14 @@ hr.star-primary:after {
 }
 
 hr.light {
-    
+
     max-width: 200px;
     border-color: #fff;
     border-width: 3px;
 }
 
 hr.light-black {
-    
+
     max-width: 200px;
     border-color: #2c3e50;
     border-width: 3px;
@@ -108,9 +108,9 @@ hr.light-black {
 
 header {
     text-align: center;
-    background: url(../img/bancale.png) no-repeat 0 0 fixed;
+    background: url(../img/bancale.jpg) no-repeat 85% center scroll;
     height: auto;
-    position:relative;
+
     padding: 30px 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -231,11 +231,10 @@ section.success a.active {
     color: #2c3e50;
 }
 
-section.div-img-first {
-    background: url(../img/FiberBancale.jpg) no-repeat fixed;
-    height: 500px;
-    
-    position:relative;
+div.div-img-first {
+    background: url(../img/FiberBancale.jpg) no-repeat 70% 70% scroll;
+    padding: 230px 0;
+    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -244,12 +243,12 @@ section.div-img-first {
 
 
 
-section.div-img-second {
+div.div-img-second {
     text-align: center;
-    background: url(../img/macro_forato.png) no-repeat fixed;
-    height: 450px;
-    
-    position:relative;
+    background: url(../img/macro_forato.jpg) no-repeat center center scroll;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -722,4 +721,3 @@ footer .footer-below {
         padding: 0 100px 20px 20px;
     }
 }
-

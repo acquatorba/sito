@@ -16,10 +16,10 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-$to = 'info@imballaggisrl.eu'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'cpaola@rtve.it'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "email dal sitoweb:  $name";
 $email_body = "Hai ricevuto un nuovo messaggio dal form del sito web.\n\n"."Questi sono i dettagli:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "Da: noreply@imballaggisrl.eu\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "Da: giulio.maria@gmail.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			

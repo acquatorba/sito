@@ -18,6 +18,7 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });   
       }); // end window scroll
    });  // end section function
+    
 }); // close out script
 
 /* Create HTML5 element for IE */
